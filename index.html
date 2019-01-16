@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Crystal Collector Game</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="container">
+        
+        <div class="jumbotron">
+            <h1>Crystal Collector</h1>
+        </div>
+
+        <!-- row for instruction box -->
+        <div class="row" id="instruct">
+            <div class="col-md-2">
+                <img src="./assets/images/diamond.gif" class="sideImg" alt="Turning Gem">
+            </div>
+
+            <div class="col-md-8">
+                <p>You will be given a random number at the start of the game.</p>
+                <p> Each of the four crystals below will add a certain amount of points to your total score. </p>
+                <p>You win the game if your total score matches the random number, and lose if your total score goes above it. </p>
+                <p>The value of each crystal changes after game end. This value is random from 1 to 12 and is hidden from you.</p>
+            </div>
+
+            <div class="col-md-2">
+                <img src="./assets/images/diamond.gif" class="sideImg" alt="Turning Gem">
+            </div>
+        </div>
+
+        <!-- row for scores and records -->
+        <div class="row" id="infoRow">
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Target Number</h3>
+            <h2 id="targetNumber"></h2>
+            </div>
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Current Total</h3>
+            <h2 id="scoreBox"></h2>
+            </div>
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Score</h3>
+            <h2 id="winLoss"></h2>
+
+            </div>
+
+        </div>
+
+        <!--row for crystal buttons-->
+        <div id="buttonRow" class="row">
+            <div class="col-md-3">
+                <input type="image" class="crystalBtn" id="btnOne" src="./assets/images/yellow-diamond.png" alt="Crystal One"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="crystalBtn" id="btnTwo" src="./assets/images/blue-diamond.png" alt="Crystal Two"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="crystalBtn" id="btnThree" src="./assets/images/pink-diamond.png" alt="Crystal Three"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="crystalBtn" id="btnFour" src="./assets/images/green-diamond.png" alt="Crystal Four"/>
+            </div>
+        </div>
+    
+    </div>    
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="./assets/javascript/game.js"></script>
+
+<footer>
+    <div id="footer-content">
+        Copyright Sabrina Justice 2018 &copy;
+    </div>
+</footer>
+
+</body>
+</html>

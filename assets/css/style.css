@@ -1,0 +1,74 @@
+body{
+    color: lightgoldenrodyellow;
+    font-family: 'Dosis', sans-serif;
+}
+.jumbotron{
+    color: darkslategray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#instruct{
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid lightgoldenrodyellow;
+    font-size: 1.5em;
+}
+#targetNumber{
+    color: lightcoral;
+   
+}
+#scoreBox{
+    color: rgb(59, 231, 59);
+}
+
+#winLoss{
+    color: rgb(47, 125, 151); 
+}
+
+#infoRow{
+    text-align: center;
+}
+.labelBox{
+    color: blueviolet;
+    text-decoration: underline;
+    line-height: 16px;
+    padding-bottom: 5px;
+}
+.crystalBtn{
+    position: relative;
+    padding: 30px 5px 5px 0px;
+}
+.crystalBtn:focus{
+    outline: none;
+}
+.sideImg{
+    width: 125px;
+    height: 125px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+#buttonRow{
+    margin-left: 60px;
+}
+.toast{
+    margin-left: 15px;
+    width: 300px;
+    height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(48, 230, 230);
+}
+
+#footer-content {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    border-color: #4aaaaf;
+    border-width: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-size: 5.5pt;
+    width: 100%; 
+}
